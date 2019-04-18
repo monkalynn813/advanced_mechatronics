@@ -45,6 +45,8 @@ void setVoltage(char chn, float v);
 
 
 int main(void) {
+    TRISAbits.TRISA4 = 0;
+    
     __builtin_disable_interrupts();
         // set the CP0 CONFIG register to indicate that kseg0 is cacheable (0x3)
     __builtin_mtc0(_CP0_CONFIG, _CP0_CONFIG_SELECT, 0xa4210583);
@@ -61,19 +63,20 @@ int main(void) {
     initSPI1();
     int i=0;
     __builtin_enable_interrupts();
-    TRISAbits.TRISA4 = 0;
+    
+    
     while(1) {
-//	_CPO_SET_COUNT(0);
+	_CP0_SET_COUNT(0);
      
-     LATAbits.LATA4=0;
+     LATAbits.LATA4=1;
      
     
-    float sin = 1.65+1.65*sin(i*2*3.1415/100);  //should make a 10Hz sin wave)
-    float tri = 3.3*(2/3.1415)*asin(sin(i*3.1415/200));
+    float sin = 1.65+1.65*sin(i*2*3.1415/0.1);  //should make a 10Hz sin wave)
+    float tri = 3.3*(2/3.1415)*asin(sin(i*3.1415/0.2));
 	i++;
      setVoltage(0,tri);
      setVoltage(1,sin);
-//	while(_CPO_GET_COUNT() < 2400000000/1000) {}  //check this is 24Million
+	while(_CP0_GET_COUNT() < 24000) {;}  //check this is 24Million
     ;
   }
   return 0;
