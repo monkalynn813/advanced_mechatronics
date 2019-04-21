@@ -1,6 +1,7 @@
 #include<xc.h>           // processor SFR definitions
 #include<sys/attribs.h>  // __ISR macro
 #include<math.h>
+#include "i2c_master_noint.h"
 // DEVCFG0
 #pragma config DEBUG = OFF // no debugging
 #pragma config JTAGEN = OFF // no jtag
@@ -36,19 +37,16 @@
 #pragma config FUSBIDIO = ON // USB pins controlled by USB module
 #pragma config FVBUSONIO = ON // USB BUSON controlled by USB module
 
-#define CS LATBbits.LATB15 
-//function prototype
-unsigned char spi_io(unsigned char o);
-void initSPI1();
-void setVoltage(char chn, float v);
+//Prototypes
+void initExpander();
+void setExpander(char pin, char bits);
+char getExpender(char pin);
 
+int main() {
 
-
-int main(void) {
-    TRISAbits.TRISA4 = 0;
-    
     __builtin_disable_interrupts();
-        // set the CP0 CONFIG register to indicate that kseg0 is cacheable (0x3)
+
+    // set the CP0 CONFIG register to indicate that kseg0 is cacheable (0x3)
     __builtin_mtc0(_CP0_CONFIG, _CP0_CONFIG_SELECT, 0xa4210583);
 
     // 0 data RAM access wait states
@@ -59,71 +57,50 @@ int main(void) {
 
     // disable JTAG to get pins back
     DDPCONbits.JTAGEN = 0;
+
     
-    initSPI1();
-    int i=0;
+    ANSELBbits.ANSB2=0;
+    ANSELBbits.ANSB3=0;
+    TRISAbits.TRISA4 = 0;
+    LATAbits.LATA4=0;
+    initExpander();
     __builtin_enable_interrupts();
     
-    
+    _CP0_SET_COUNT(0);
+
     while(1) {
-	_CP0_SET_COUNT(0);
-     
-     LATAbits.LATA4=1;
-     
-    
-    float sin = 1.65+1.65*sin(i*2*3.1415/0.1);  //should make a 10Hz sin wave)
-    float tri = 3.3*(2/3.1415)*asin(sin(i*3.1415/0.2));
-	i++;
-     setVoltage(0,tri);
-     setVoltage(1,sin);
-	while(_CP0_GET_COUNT() < 24000) {;}  //check this is 24Million
-    ;
-  }
-  return 0;
+       if (_CP0_GET_COUNT()>5000000){  //switch every 0.1s, 5Hz
+            LATAbits.LATA4=!LATAbits.LATA4;
+            _CP0_SET_COUNT(0);
+        }
+       char gpio=getExpender(0b00001001);
+       char gp7=(gpio>>7);
+       if (gp7== 0) {setExpander(0b00001001,0b00001111);}
+       else {setExpander(0x09,0x00);}
+    }
 }
 
-
-// send a byte via spi and return the response
-unsigned char spi_io(unsigned char o) {
-  SPI1BUF = o;
-  while(!SPI1STATbits.SPIRBF) { // wait to receive the byte
-    ;
-  }
-  return SPI1BUF;
+void initExpander(){
+    i2c_master_setup();
+    setExpander(0b00000110,0b11110000); //set pull-up resistor configuration (GPPU)
+    setExpander(0b00000000, 0b11110000); //set GP0~3 output, 4~7 input
 }
-
-void initSPI1(){
-    
-    RPB15Rbits.RPB15R=0b0011; //B15 = SS1
-    RPA1Rbits.RPA1R=0b0011; // A1= SDO1
-//    RPB14Rbits.RPB14R=0b0111; //B14= SCK1
-    //SDI not used
-    TRISBbits.TRISB15=0; //manually control SS1 as digital output 
-    CS=1;
-    
-    SPI1CON = 0;              // turn off the spi module and reset it
-    SPI1BUF;                  // clear the rx buffer by reading from it
-    SPI1BRG = 0x1;             // baud rate to 10 MHz [SPI1BRG = (80000000/(2*desired))-1]
-    SPI1STATbits.SPIROV = 0;  // clear the overflow bit
-    SPI1CONbits.CKE = 1;      // data changes when clock goes from hi to lo (since CKP is 0)
-    SPI1CONbits.MSTEN = 1;    // master operation
-    SPI1CONbits.ON = 1;       // turn on spi
-
+void setExpander(char pin, char bits){
+    i2c_master_start();
+    i2c_master_send(0b01000000); //set Opcode +W
+    i2c_master_send(pin); //register address
+    i2c_master_send(bits); // send data
+    i2c_master_stop();
 }
-void setVoltage(char chn, float v) {
-    int adc=0;
-	unsigned char bgs=0b111;
-    unsigned short c1 = 0, c2=0;
+char getExpender(char pin){
+    i2c_master_start();
+    i2c_master_send(0b1000000); //set Opcode +W (MCP23008)
+    i2c_master_send(pin);       //which address to read
+    i2c_master_restart();       //restart
+    i2c_master_send(0b1000001); //set Opcode +R
+    char r = i2c_master_recv(); //get data from slave
+    i2c_master_ack(1);          //send nack indicates no more bytes requested from slave
+    i2c_master_stop();          //stop
     
-    adc=(int)(1023.*v/(3.3));
-    c1=chn<<7;
-    c1=c1|(bgs<<4);
-    c1=c1|(adc>>6);
-    c2=c2|(adc<<2);
-	
-	CS = 0;
-	spi_io(c1);
-    spi_io(c2);
-	CS=1;
+    return r;
 }
-
