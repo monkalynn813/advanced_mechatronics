@@ -69,14 +69,14 @@ int main() {
     _CP0_SET_COUNT(0);
 
     while(1) {
-       if (_CP0_GET_COUNT()>5000000){  //switch every 0.1s, 5Hz
+       if (_CP0_GET_COUNT()>4800000){  //switch every 0.1s, 5Hz  //debugging setup (heartbeat)
             LATAbits.LATA4=!LATAbits.LATA4;
             _CP0_SET_COUNT(0);
         }
        char gpio=getExpender(0b00001001);
-       char gp7=(gpio>>7);
-       if (gp7== 0) {setExpander(0b00001001,0b00001111);}
-       else {setExpander(0x09,0x00);}
+       char gp7=(gpio>>7); //read only GP0
+       if (gp7== 0) {setExpander(0b00001001,0b00001111);} //if button pushed (GP0 is low), turn on GP4~7 output high
+       else {setExpander(0x09,0x00);} //button not pushed, output pins low
     }
 }
 
@@ -94,10 +94,10 @@ void setExpander(char pin, char bits){
 }
 char getExpender(char pin){
     i2c_master_start();
-    i2c_master_send(0b1000000); //set Opcode +W (MCP23008)
+    i2c_master_send(0b01000000); //set Opcode +W (MCP23008)
     i2c_master_send(pin);       //which address to read
     i2c_master_restart();       //restart
-    i2c_master_send(0b1000001); //set Opcode +R
+    i2c_master_send(0b01000001); //set Opcode +R
     char r = i2c_master_recv(); //get data from slave
     i2c_master_ack(1);          //send nack indicates no more bytes requested from slave
     i2c_master_stop();          //stop
