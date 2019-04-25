@@ -62,7 +62,7 @@ int main(void) {
     
     initSPI1();
     int i=0;
-    __builtin_enable_interrupts();
+    __builtin_enable_interrupts(); 
     
     
     while(1) {
@@ -72,7 +72,11 @@ int main(void) {
      
     
     float sin = 1.65+1.65*sin(i*2*3.1415/0.1);  //should make a 10Hz sin wave)
-    float tri = 3.3*(2/3.1415)*asin(sin(i*3.1415/0.2));
+    
+    int s=1,bias=0;
+    if (i%100==1){s=s*(-1);bias=!bias;}
+    float tri = 1.65*(2/3.1415)*asin(sin(i*3.1415/4000)) +1.65;
+//    float tri= (3.3/100)*i;
 	i++;
      setVoltage(0,tri);
      setVoltage(1,sin);
