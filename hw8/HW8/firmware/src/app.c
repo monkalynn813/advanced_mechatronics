@@ -54,6 +54,14 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 // *****************************************************************************
 
 #include "app.h"
+#include<xc.h>           // processor SFR definitions
+#include<sys/attribs.h>  // __ISR macro
+#include<math.h>
+#include<stdio.h>
+#include "i2c_master_noint.h"
+#include "imu_lib_i2c.h"
+#include "ili9341.h"
+#include "lcd_lib.h"
 
 // *****************************************************************************
 // *****************************************************************************
@@ -116,7 +124,9 @@ void APP_Initialize ( void )
 {
     /* Place the App state machine in its initial state. */
     appData.state = APP_STATE_INIT;
-        // set the CP0 CONFIG register to indicate that kseg0 is cacheable (0x3)
+    
+    
+    // set the CP0 CONFIG register to indicate that kseg0 is cacheable (0x3)
     __builtin_mtc0(_CP0_CONFIG, _CP0_CONFIG_SELECT, 0xa4210583);
 
     // 0 data RAM access wait states
@@ -127,21 +137,15 @@ void APP_Initialize ( void )
 
     // disable JTAG to get pins back
     DDPCONbits.JTAGEN = 0;
-
-    // do your TRIS and LAT commands here
-    T1CONbits.TCKPS = 0b11;
-    T1CONbits.TGATE = 0;
-    T1CONbits.TCS = 0;
-    PR1 = 311;
-    TMR1 = 0;
-    T1CONbits.ON = 1;
-    
     TRISAbits.TRISA4 = 0;
-    LATAbits.LATA4 = 1;
+    LATAbits.LATA4=0;
+    SPI1_init();
+    LCD_init();
+    initIMU();
+    LCD_clearScreen(ILI9341_BLACK);
     
-    TRISBbits.TRISB4 = 1;
-    _CP0_SET_COUNT(0);
-    
+
+
     /* TODO: Initialize your application's state machine and other
      * parameters.
      */
@@ -178,14 +182,26 @@ void APP_Tasks ( void )
 
         case APP_STATE_SERVICE_TASKS:
         {
-            while (PORTBbits.RB4 == 0){
-            LATAbits.LATA4=0;
-        }
-        if (_CP0_GET_COUNT()>24000){
-            LATAbits.LATA4=!LATAbits.LATA4;
-            _CP0_SET_COUNT(0);
-        }
+            short temp[7];
+                _CP0_SET_COUNT(0);
+        int i=0;
         
+        LATAbits.LATA4=!LATAbits.LATA4;
+
+        short *output=get_multi_IMU(0x20,14,temp);
+//        char r=IMU_test();
+        char msg[100];
+//          
+        for(i=0;i<7;i++){
+          sprintf(msg,"%d : %d    ",i,output[i]);
+          LCD_print(msg,28,32+i*9,ILI9341_ORANGE,ILI9341_BLACK);
+        }
+
+//        sprintf(msg,"%d",r);
+//        LCD_print(msg,150,32,ILI9341_ORANGE,ILI9341_BLACK);
+        LCD_x_y_cross(output[4],output[5],ILI9341_BLUE,ILI9341_PINK);
+
+        while(_CP0_GET_COUNT() < 1200000){;}
             break;
         }
 
