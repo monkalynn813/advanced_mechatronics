@@ -48,7 +48,7 @@ void LCD_drawButton(unsigned short x, unsigned short y, int wide, int height, un
     /*Function draws a button on the LCD screen
      * x: x-coordinate of button center
      * y: y-coordinate of button center
-     * wide: width of button
+     * wide: width of button 
      * height: height of button
      * bc: button color
      * pc: when press, boundary color
