@@ -1,109 +1,109 @@
 
 Optional file libmchp_peripheral.a not found
 
-Optional file libmchp_peripheral_32MX250F128B.a not found
+Optional file libmchp_peripheral_32MX270F256D.a not found
 Archive member included because of file (symbol)
 
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
-                              /tmp/ccOqHytL.o (_bootstrap_exception_handler)
+                              /tmp/cco23KKU.o (_bootstrap_exception_handler)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-reset.o)
-                              /tmp/ccOqHytL.o (_on_reset)
+                              /tmp/cco23KKU.o (_on_reset)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-bootstrap.o)
-                              /tmp/ccOqHytL.o (_on_bootstrap)
+                              /tmp/cco23KKU.o (_on_bootstrap)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-nmi-handler.o)
-                              /tmp/ccOqHytL.o (_nmi_handler)
+                              /tmp/cco23KKU.o (_nmi_handler)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(pic32_data_init.o)
-                              /tmp/ccOqHytL.o (__pic32_data_init)
+                              /tmp/cco23KKU.o (__pic32_data_init)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(general-exception.o)
-                              /tmp/ccOqHytL.o (_general_exception_context)
+                              /tmp/cco23KKU.o (_general_exception_context)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector0.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_0)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_0)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector1.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_1)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_1)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector2.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_2)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_2)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector3.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_3)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_3)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector4.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_4)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_4)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector5.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_5)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_5)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector6.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_6)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_6)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector7.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_7)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_7)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector8.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_8)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_8)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector9.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_9)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_9)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector10.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_10)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_10)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector11.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_11)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_11)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector12.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_12)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_12)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector13.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_13)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_13)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector14.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_14)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_14)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector15.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_15)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_15)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector16.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_16)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_16)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector17.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_17)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_17)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector18.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_18)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_18)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector19.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_19)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_19)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector20.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_20)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_20)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector21.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_21)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_21)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector22.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_22)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_22)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector23.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_23)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_23)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector24.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_24)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_24)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector25.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_25)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_25)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector26.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_26)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_26)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector27.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_27)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_27)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector28.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_28)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_28)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector29.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_29)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_29)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector30.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_30)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_30)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector31.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_31)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_31)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector32.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_32)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_32)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector33.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_33)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_33)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector34.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_34)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_34)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector35.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_35)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_35)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector36.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_36)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_36)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector37.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_37)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_37)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector38.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_38)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_38)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector39.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_39)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_39)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector40.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_40)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_40)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector41.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_41)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_41)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector42.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_42)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_42)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector43.o)
-                              /tmp/ccO8b19n.o (__vector_dispatch_43)
+                              /tmp/ccFBuVqf.o (__vector_dispatch_43)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-general-exception-handler.o)
                               /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(general-exception.o) (_general_exception_handler)
 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(defaultinterrupt.o)
@@ -114,18 +114,18 @@ Microchip PIC32 Memory-Usage Report
 kseg0 Program-Memory Usage
 section                    address  length [bytes]      (dec)  Description
 -------                 ----------  -------------------------  -----------
-.text                   0x9d000000          0x188         392  App's exec code 
-.text.general_exception 0x9d000188           0xdc         220   
-.text                   0x9d000264           0x84         132  App's exec code 
-.text.main_entry        0x9d0002e8           0x54          84   
-.text._bootstrap_except 0x9d00033c           0x48          72   
-.text._general_exceptio 0x9d000384           0x48          72   
-.vector_default         0x9d0003cc           0x48          72   
-.text                   0x9d000414           0x5c          92  App's exec code 
-.dinit                  0x9d000470           0x10          16   
-.text._on_reset         0x9d000480            0x8           8   
-.text._on_bootstrap     0x9d000488            0x8           8   
-      Total kseg0_program_mem used  :       0x490        1168  0.9% of 0x1f000
+.text                   0x9d000000          0x1d8         472  App's exec code 
+.text.general_exception 0x9d0001d8           0xdc         220   
+.text                   0x9d0002b4           0x84         132  App's exec code 
+.text.main_entry        0x9d000338           0x54          84   
+.text._bootstrap_except 0x9d00038c           0x48          72   
+.text._general_exceptio 0x9d0003d4           0x48          72   
+.vector_default         0x9d00041c           0x48          72   
+.text                   0x9d000464           0x5c          92  App's exec code 
+.dinit                  0x9d0004c0           0x10          16   
+.text._on_reset         0x9d0004d0            0x8           8   
+.text._on_bootstrap     0x9d0004d8            0x8           8   
+      Total kseg0_program_mem used  :       0x4e0        1248  0.5% of 0x3f000
 
 kseg0 Boot-Memory Usage
 section                    address  length [bytes]      (dec)  Description
@@ -135,51 +135,51 @@ section                    address  length [bytes]      (dec)  Description
 Exception-Memory Usage 
 section                    address  length [bytes]      (dec)  Description
 -------                 ----------  -------------------------  -----------
-.app_excpt              0x9d01f180           0x10          16  General-Exception 
-.vector_0               0x9d01f200            0x8           8  Interrupt Vector 0 
-.vector_1               0x9d01f220            0x8           8  Interrupt Vector 1 
-.vector_2               0x9d01f240            0x8           8  Interrupt Vector 2 
-.vector_3               0x9d01f260            0x8           8  Interrupt Vector 3 
-.vector_4               0x9d01f280            0x8           8  Interrupt Vector 4 
-.vector_5               0x9d01f2a0            0x8           8  Interrupt Vector 5 
-.vector_6               0x9d01f2c0            0x8           8  Interrupt Vector 6 
-.vector_7               0x9d01f2e0            0x8           8  Interrupt Vector 7 
-.vector_8               0x9d01f300            0x8           8  Interrupt Vector 8 
-.vector_9               0x9d01f320            0x8           8  Interrupt Vector 9 
-.vector_10              0x9d01f340            0x8           8  Interrupt Vector 10 
-.vector_11              0x9d01f360            0x8           8  Interrupt Vector 11 
-.vector_12              0x9d01f380            0x8           8  Interrupt Vector 12 
-.vector_13              0x9d01f3a0            0x8           8  Interrupt Vector 13 
-.vector_14              0x9d01f3c0            0x8           8  Interrupt Vector 14 
-.vector_15              0x9d01f3e0            0x8           8  Interrupt Vector 15 
-.vector_16              0x9d01f400            0x8           8  Interrupt Vector 16 
-.vector_17              0x9d01f420            0x8           8  Interrupt Vector 17 
-.vector_18              0x9d01f440            0x8           8  Interrupt Vector 18 
-.vector_19              0x9d01f460            0x8           8  Interrupt Vector 19 
-.vector_20              0x9d01f480            0x8           8  Interrupt Vector 20 
-.vector_21              0x9d01f4a0            0x8           8  Interrupt Vector 21 
-.vector_22              0x9d01f4c0            0x8           8  Interrupt Vector 22 
-.vector_23              0x9d01f4e0            0x8           8  Interrupt Vector 23 
-.vector_24              0x9d01f500            0x8           8  Interrupt Vector 24 
-.vector_25              0x9d01f520            0x8           8  Interrupt Vector 25 
-.vector_26              0x9d01f540            0x8           8  Interrupt Vector 26 
-.vector_27              0x9d01f560            0x8           8  Interrupt Vector 27 
-.vector_28              0x9d01f580            0x8           8  Interrupt Vector 28 
-.vector_29              0x9d01f5a0            0x8           8  Interrupt Vector 29 
-.vector_30              0x9d01f5c0            0x8           8  Interrupt Vector 30 
-.vector_31              0x9d01f5e0            0x8           8  Interrupt Vector 31 
-.vector_32              0x9d01f600            0x8           8  Interrupt Vector 32 
-.vector_33              0x9d01f620            0x8           8  Interrupt Vector 33 
-.vector_34              0x9d01f640            0x8           8  Interrupt Vector 34 
-.vector_35              0x9d01f660            0x8           8  Interrupt Vector 35 
-.vector_36              0x9d01f680            0x8           8  Interrupt Vector 36 
-.vector_37              0x9d01f6a0            0x8           8  Interrupt Vector 37 
-.vector_38              0x9d01f6c0            0x8           8  Interrupt Vector 38 
-.vector_39              0x9d01f6e0            0x8           8  Interrupt Vector 39 
-.vector_40              0x9d01f700            0x8           8  Interrupt Vector 40 
-.vector_41              0x9d01f720            0x8           8  Interrupt Vector 41 
-.vector_42              0x9d01f740            0x8           8  Interrupt Vector 42 
-.vector_43              0x9d01f760            0x8           8  Interrupt Vector 43 
+.app_excpt              0x9d03f180           0x10          16  General-Exception 
+.vector_0               0x9d03f200            0x8           8  Interrupt Vector 0 
+.vector_1               0x9d03f220            0x8           8  Interrupt Vector 1 
+.vector_2               0x9d03f240            0x8           8  Interrupt Vector 2 
+.vector_3               0x9d03f260            0x8           8  Interrupt Vector 3 
+.vector_4               0x9d03f280            0x8           8  Interrupt Vector 4 
+.vector_5               0x9d03f2a0            0x8           8  Interrupt Vector 5 
+.vector_6               0x9d03f2c0            0x8           8  Interrupt Vector 6 
+.vector_7               0x9d03f2e0            0x8           8  Interrupt Vector 7 
+.vector_8               0x9d03f300            0x8           8  Interrupt Vector 8 
+.vector_9               0x9d03f320            0x8           8  Interrupt Vector 9 
+.vector_10              0x9d03f340            0x8           8  Interrupt Vector 10 
+.vector_11              0x9d03f360            0x8           8  Interrupt Vector 11 
+.vector_12              0x9d03f380            0x8           8  Interrupt Vector 12 
+.vector_13              0x9d03f3a0            0x8           8  Interrupt Vector 13 
+.vector_14              0x9d03f3c0            0x8           8  Interrupt Vector 14 
+.vector_15              0x9d03f3e0            0x8           8  Interrupt Vector 15 
+.vector_16              0x9d03f400            0x8           8  Interrupt Vector 16 
+.vector_17              0x9d03f420            0x8           8  Interrupt Vector 17 
+.vector_18              0x9d03f440            0x8           8  Interrupt Vector 18 
+.vector_19              0x9d03f460            0x8           8  Interrupt Vector 19 
+.vector_20              0x9d03f480            0x8           8  Interrupt Vector 20 
+.vector_21              0x9d03f4a0            0x8           8  Interrupt Vector 21 
+.vector_22              0x9d03f4c0            0x8           8  Interrupt Vector 22 
+.vector_23              0x9d03f4e0            0x8           8  Interrupt Vector 23 
+.vector_24              0x9d03f500            0x8           8  Interrupt Vector 24 
+.vector_25              0x9d03f520            0x8           8  Interrupt Vector 25 
+.vector_26              0x9d03f540            0x8           8  Interrupt Vector 26 
+.vector_27              0x9d03f560            0x8           8  Interrupt Vector 27 
+.vector_28              0x9d03f580            0x8           8  Interrupt Vector 28 
+.vector_29              0x9d03f5a0            0x8           8  Interrupt Vector 29 
+.vector_30              0x9d03f5c0            0x8           8  Interrupt Vector 30 
+.vector_31              0x9d03f5e0            0x8           8  Interrupt Vector 31 
+.vector_32              0x9d03f600            0x8           8  Interrupt Vector 32 
+.vector_33              0x9d03f620            0x8           8  Interrupt Vector 33 
+.vector_34              0x9d03f640            0x8           8  Interrupt Vector 34 
+.vector_35              0x9d03f660            0x8           8  Interrupt Vector 35 
+.vector_36              0x9d03f680            0x8           8  Interrupt Vector 36 
+.vector_37              0x9d03f6a0            0x8           8  Interrupt Vector 37 
+.vector_38              0x9d03f6c0            0x8           8  Interrupt Vector 38 
+.vector_39              0x9d03f6e0            0x8           8  Interrupt Vector 39 
+.vector_40              0x9d03f700            0x8           8  Interrupt Vector 40 
+.vector_41              0x9d03f720            0x8           8  Interrupt Vector 41 
+.vector_42              0x9d03f740            0x8           8  Interrupt Vector 42 
+.vector_43              0x9d03f760            0x8           8  Interrupt Vector 43 
           Total exception_mem used  :       0x170         368  9.0% of 0x1000
 
 kseg1 Boot-Memory Usage
@@ -189,16 +189,16 @@ section                    address  length [bytes]      (dec)  Description
 .bev_excpt              0xbfc00380           0x10          16  BEV-Exception 
          Total kseg1_boot_mem used  :       0x194         404  34.6% of 0x490
         --------------------------------------------------------------------------
-         Total Program Memory used  :       0x794        1940  1.5% of 0x20490
+         Total Program Memory used  :       0x7e4        2020  0.8% of 0x40490
         --------------------------------------------------------------------------
 
 
 kseg1 Data-Memory Usage
 section                    address  length [bytes]      (dec)  Description
 -------                 ----------  -------------------------  -----------
-         Total kseg1_data_mem used  :           0           0  <1% of 0x8000
+         Total kseg1_data_mem used  :           0           0  <1% of 0x10000
         --------------------------------------------------------------------------
-            Total Data Memory used  :           0           0  <1% of 0x8000
+            Total Data Memory used  :           0           0  <1% of 0x10000
         --------------------------------------------------------------------------
 
 
@@ -206,21 +206,21 @@ Dynamic Data-Memory Reservation
 section                    address  length [bytes]      (dec)  Description
 -------                 ----------  -------------------------  -----------
 heap                    0xa0000008           0x10          16  Reserved for heap 
-stack                   0xa0000030         0x7fc8       32712  Reserved for stack 
+stack                   0xa0000030         0xffc8       65480  Reserved for stack 
 
         --------------------------------------------------------------------------
 
 Discarded input sections
 
  .reginfo       0x00000000       0x18 build/default/production/main.o
- .reginfo       0x00000000       0x18 /tmp/ccOqHytL.o
- .reginfo       0x00000000       0x18 /tmp/ccFOiEE4.o
- .reginfo       0x00000000       0x18 /tmp/ccO8b19n.o
- .discard       0x00000000       0xb0 /tmp/ccO8b19n.o
- .reginfo       0x00000000       0x18 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX250F128B/default_isr_vectors.o
- .discard       0x00000000       0xb0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX250F128B/default_isr_vectors.o
+ .reginfo       0x00000000       0x18 /tmp/cco23KKU.o
+ .reginfo       0x00000000       0x18 /tmp/cccdp7T4.o
+ .reginfo       0x00000000       0x18 /tmp/ccFBuVqf.o
+ .discard       0x00000000       0xb0 /tmp/ccFBuVqf.o
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX270F256D/default_isr_vectors.o
+ .discard       0x00000000       0xb0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX270F256D/default_isr_vectors.o
  .reginfo       0x00000000       0x18 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/pic32_software_reset.o
- .reginfo       0x00000000       0x18 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX250F128B/processor.o
+ .reginfo       0x00000000       0x18 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX270F256D/processor.o
  .reginfo       0x00000000       0x18 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
  .reginfo       0x00000000       0x18 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-reset.o)
  .reginfo       0x00000000       0x18 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-bootstrap.o)
@@ -277,8 +277,8 @@ Discarded input sections
 Memory Configuration
 
 Name             Origin             Length             Attributes
-kseg0_program_mem 0x9d000000         0x0001f000         xr
-exception_mem    0x9d01f000         0x00001000
+kseg0_program_mem 0x9d000000         0x0003f000         xr
+exception_mem    0x9d03f000         0x00001000
 debug_exec_mem   0x9fc00490         0x00000760
 kseg0_boot_mem   0x9fc00490         0x00000000
 kseg1_boot_mem   0xbfc00000         0x00000490
@@ -286,7 +286,7 @@ config3          0xbfc00bf0         0x00000004
 config2          0xbfc00bf4         0x00000004
 config1          0xbfc00bf8         0x00000004
 config0          0xbfc00bfc         0x00000004
-kseg1_data_mem   0xa0000000         0x00008000         w !x
+kseg1_data_mem   0xa0000000         0x00010000         w !x
 sfrs             0xbf800000         0x00100000
 configsfrs       0xbfc00bf0         0x00000010
 *default*        0x00000000         0xffffffff
@@ -296,29 +296,29 @@ Linker script and memory map
 LOAD /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/debug-exception-return.o
 LOAD build/default/production/main.o
                 0x00000001                __MPLAB_BUILD = 0x1
-LOAD /tmp/ccOqHytL.o
-LOAD /tmp/ccFOiEE4.o
-LOAD /tmp/ccO8b19n.o
-LOAD /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX250F128B/default_isr_vectors.o
+LOAD /tmp/cco23KKU.o
+LOAD /tmp/cccdp7T4.o
+LOAD /tmp/ccFBuVqf.o
+LOAD /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX270F256D/default_isr_vectors.o
 LOAD /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/pic32_software_reset.o
                 0x00000400                PROVIDE (_min_stack_size, 0x400)
 START GROUP
-LOAD /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX250F128B/processor.o
+LOAD /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX270F256D/processor.o
 END GROUP
 START GROUP
 LOAD libmchp_peripheral.a
 END GROUP
 START GROUP
-LOAD libmchp_peripheral_32MX250F128B.a
+LOAD libmchp_peripheral_32MX270F256D.a
 END GROUP
                 0x00000001                PROVIDE (_vector_spacing, 0x1)
-                0x9d01f000                PROVIDE (_ebase_address, 0x9d01f000)
+                0x9d03f000                PROVIDE (_ebase_address, 0x9d03f000)
                 0xbfc00000                _RESET_ADDR = 0xbfc00000
                 0xbfc00380                _BEV_EXCPT_ADDR = 0xbfc00380
                 0xbfc00480                _DBG_EXCPT_ADDR = 0xbfc00480
                 0x9fc00490                _DBG_CODE_ADDR = 0x9fc00490
                 0x00000760                _DBG_CODE_SIZE = 0x760
-                0x9d01f180                _GEN_EXCPT_ADDR = (_ebase_address + 0x180)
+                0x9d03f180                _GEN_EXCPT_ADDR = (_ebase_address + 0x180)
 
 .config_BFC00BF0
                 0xbfc00bf0        0x4
@@ -348,16 +348,16 @@ END GROUP
 
 .reset          0xbfc00000      0x184
  *(.reset)
- .reset         0xbfc00000        0x8 /tmp/ccOqHytL.o
+ .reset         0xbfc00000        0x8 /tmp/cco23KKU.o
                 0xbfc00000                _reset
  *(.reset.startup)
  .reset.startup
-                0xbfc00008      0x17c /tmp/ccOqHytL.o
+                0xbfc00008      0x17c /tmp/cco23KKU.o
                 0xbfc00008                _startup
 
 .bev_excpt      0xbfc00380       0x10
  *(.bev_handler)
- .bev_handler   0xbfc00380       0x10 /tmp/ccOqHytL.o
+ .bev_handler   0xbfc00380       0x10 /tmp/cco23KKU.o
 
 .dbg_excpt      0xbfc00480        0x0
                 0xbfc00480                . = (. + DEFINED (_DEBUGGER)?0x8:0x0)
@@ -365,351 +365,351 @@ END GROUP
 .dbg_code       0x9fc00490        0x0
                 0x9fc00490                . = (. + DEFINED (_DEBUGGER)?_DBG_CODE_SIZE:0x0)
 
-.app_excpt      0x9d01f180       0x10
+.app_excpt      0x9d03f180       0x10
  *(.gen_handler)
- .gen_handler   0x9d01f180       0x10 /tmp/ccOqHytL.o
+ .gen_handler   0x9d03f180       0x10 /tmp/cco23KKU.o
 
-.vector_0       0x9d01f200        0x8
+.vector_0       0x9d03f200        0x8
  *(.vector_0)
- .vector_0      0x9d01f200        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector0.o)
-                0x9d01f200                __vector_dispatch_0
+ .vector_0      0x9d03f200        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector0.o)
+                0x9d03f200                __vector_dispatch_0
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_0) <= (_vector_spacing << 0x5))), function at exception vector 0 too large)
 
-.vector_1       0x9d01f220        0x8
+.vector_1       0x9d03f220        0x8
  *(.vector_1)
- .vector_1      0x9d01f220        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector1.o)
-                0x9d01f220                __vector_dispatch_1
+ .vector_1      0x9d03f220        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector1.o)
+                0x9d03f220                __vector_dispatch_1
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_1) <= (_vector_spacing << 0x5))), function at exception vector 1 too large)
 
-.vector_2       0x9d01f240        0x8
+.vector_2       0x9d03f240        0x8
  *(.vector_2)
- .vector_2      0x9d01f240        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector2.o)
-                0x9d01f240                __vector_dispatch_2
+ .vector_2      0x9d03f240        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector2.o)
+                0x9d03f240                __vector_dispatch_2
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_2) <= (_vector_spacing << 0x5))), function at exception vector 2 too large)
 
-.vector_3       0x9d01f260        0x8
+.vector_3       0x9d03f260        0x8
  *(.vector_3)
- .vector_3      0x9d01f260        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector3.o)
-                0x9d01f260                __vector_dispatch_3
+ .vector_3      0x9d03f260        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector3.o)
+                0x9d03f260                __vector_dispatch_3
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_3) <= (_vector_spacing << 0x5))), function at exception vector 3 too large)
 
-.vector_4       0x9d01f280        0x8
+.vector_4       0x9d03f280        0x8
  *(.vector_4)
- .vector_4      0x9d01f280        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector4.o)
-                0x9d01f280                __vector_dispatch_4
+ .vector_4      0x9d03f280        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector4.o)
+                0x9d03f280                __vector_dispatch_4
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_4) <= (_vector_spacing << 0x5))), function at exception vector 4 too large)
 
-.vector_5       0x9d01f2a0        0x8
+.vector_5       0x9d03f2a0        0x8
  *(.vector_5)
- .vector_5      0x9d01f2a0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector5.o)
-                0x9d01f2a0                __vector_dispatch_5
+ .vector_5      0x9d03f2a0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector5.o)
+                0x9d03f2a0                __vector_dispatch_5
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_5) <= (_vector_spacing << 0x5))), function at exception vector 5 too large)
 
-.vector_6       0x9d01f2c0        0x8
+.vector_6       0x9d03f2c0        0x8
  *(.vector_6)
- .vector_6      0x9d01f2c0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector6.o)
-                0x9d01f2c0                __vector_dispatch_6
+ .vector_6      0x9d03f2c0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector6.o)
+                0x9d03f2c0                __vector_dispatch_6
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_6) <= (_vector_spacing << 0x5))), function at exception vector 6 too large)
 
-.vector_7       0x9d01f2e0        0x8
+.vector_7       0x9d03f2e0        0x8
  *(.vector_7)
- .vector_7      0x9d01f2e0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector7.o)
-                0x9d01f2e0                __vector_dispatch_7
+ .vector_7      0x9d03f2e0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector7.o)
+                0x9d03f2e0                __vector_dispatch_7
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_7) <= (_vector_spacing << 0x5))), function at exception vector 7 too large)
 
-.vector_8       0x9d01f300        0x8
+.vector_8       0x9d03f300        0x8
  *(.vector_8)
- .vector_8      0x9d01f300        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector8.o)
-                0x9d01f300                __vector_dispatch_8
+ .vector_8      0x9d03f300        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector8.o)
+                0x9d03f300                __vector_dispatch_8
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_8) <= (_vector_spacing << 0x5))), function at exception vector 8 too large)
 
-.vector_9       0x9d01f320        0x8
+.vector_9       0x9d03f320        0x8
  *(.vector_9)
- .vector_9      0x9d01f320        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector9.o)
-                0x9d01f320                __vector_dispatch_9
+ .vector_9      0x9d03f320        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector9.o)
+                0x9d03f320                __vector_dispatch_9
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_9) <= (_vector_spacing << 0x5))), function at exception vector 9 too large)
 
-.vector_10      0x9d01f340        0x8
+.vector_10      0x9d03f340        0x8
  *(.vector_10)
- .vector_10     0x9d01f340        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector10.o)
-                0x9d01f340                __vector_dispatch_10
+ .vector_10     0x9d03f340        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector10.o)
+                0x9d03f340                __vector_dispatch_10
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_10) <= (_vector_spacing << 0x5))), function at exception vector 10 too large)
 
-.vector_11      0x9d01f360        0x8
+.vector_11      0x9d03f360        0x8
  *(.vector_11)
- .vector_11     0x9d01f360        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector11.o)
-                0x9d01f360                __vector_dispatch_11
+ .vector_11     0x9d03f360        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector11.o)
+                0x9d03f360                __vector_dispatch_11
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_11) <= (_vector_spacing << 0x5))), function at exception vector 11 too large)
 
-.vector_12      0x9d01f380        0x8
+.vector_12      0x9d03f380        0x8
  *(.vector_12)
- .vector_12     0x9d01f380        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector12.o)
-                0x9d01f380                __vector_dispatch_12
+ .vector_12     0x9d03f380        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector12.o)
+                0x9d03f380                __vector_dispatch_12
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_12) <= (_vector_spacing << 0x5))), function at exception vector 12 too large)
 
-.vector_13      0x9d01f3a0        0x8
+.vector_13      0x9d03f3a0        0x8
  *(.vector_13)
- .vector_13     0x9d01f3a0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector13.o)
-                0x9d01f3a0                __vector_dispatch_13
+ .vector_13     0x9d03f3a0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector13.o)
+                0x9d03f3a0                __vector_dispatch_13
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_13) <= (_vector_spacing << 0x5))), function at exception vector 13 too large)
 
-.vector_14      0x9d01f3c0        0x8
+.vector_14      0x9d03f3c0        0x8
  *(.vector_14)
- .vector_14     0x9d01f3c0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector14.o)
-                0x9d01f3c0                __vector_dispatch_14
+ .vector_14     0x9d03f3c0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector14.o)
+                0x9d03f3c0                __vector_dispatch_14
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_14) <= (_vector_spacing << 0x5))), function at exception vector 14 too large)
 
-.vector_15      0x9d01f3e0        0x8
+.vector_15      0x9d03f3e0        0x8
  *(.vector_15)
- .vector_15     0x9d01f3e0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector15.o)
-                0x9d01f3e0                __vector_dispatch_15
+ .vector_15     0x9d03f3e0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector15.o)
+                0x9d03f3e0                __vector_dispatch_15
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_15) <= (_vector_spacing << 0x5))), function at exception vector 15 too large)
 
-.vector_16      0x9d01f400        0x8
+.vector_16      0x9d03f400        0x8
  *(.vector_16)
- .vector_16     0x9d01f400        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector16.o)
-                0x9d01f400                __vector_dispatch_16
+ .vector_16     0x9d03f400        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector16.o)
+                0x9d03f400                __vector_dispatch_16
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_16) <= (_vector_spacing << 0x5))), function at exception vector 16 too large)
 
-.vector_17      0x9d01f420        0x8
+.vector_17      0x9d03f420        0x8
  *(.vector_17)
- .vector_17     0x9d01f420        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector17.o)
-                0x9d01f420                __vector_dispatch_17
+ .vector_17     0x9d03f420        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector17.o)
+                0x9d03f420                __vector_dispatch_17
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_17) <= (_vector_spacing << 0x5))), function at exception vector 17 too large)
 
-.vector_18      0x9d01f440        0x8
+.vector_18      0x9d03f440        0x8
  *(.vector_18)
- .vector_18     0x9d01f440        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector18.o)
-                0x9d01f440                __vector_dispatch_18
+ .vector_18     0x9d03f440        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector18.o)
+                0x9d03f440                __vector_dispatch_18
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_18) <= (_vector_spacing << 0x5))), function at exception vector 18 too large)
 
-.vector_19      0x9d01f460        0x8
+.vector_19      0x9d03f460        0x8
  *(.vector_19)
- .vector_19     0x9d01f460        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector19.o)
-                0x9d01f460                __vector_dispatch_19
+ .vector_19     0x9d03f460        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector19.o)
+                0x9d03f460                __vector_dispatch_19
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_19) <= (_vector_spacing << 0x5))), function at exception vector 19 too large)
 
-.vector_20      0x9d01f480        0x8
+.vector_20      0x9d03f480        0x8
  *(.vector_20)
- .vector_20     0x9d01f480        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector20.o)
-                0x9d01f480                __vector_dispatch_20
+ .vector_20     0x9d03f480        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector20.o)
+                0x9d03f480                __vector_dispatch_20
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_20) <= (_vector_spacing << 0x5))), function at exception vector 20 too large)
 
-.vector_21      0x9d01f4a0        0x8
+.vector_21      0x9d03f4a0        0x8
  *(.vector_21)
- .vector_21     0x9d01f4a0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector21.o)
-                0x9d01f4a0                __vector_dispatch_21
+ .vector_21     0x9d03f4a0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector21.o)
+                0x9d03f4a0                __vector_dispatch_21
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_21) <= (_vector_spacing << 0x5))), function at exception vector 21 too large)
 
-.vector_22      0x9d01f4c0        0x8
+.vector_22      0x9d03f4c0        0x8
  *(.vector_22)
- .vector_22     0x9d01f4c0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector22.o)
-                0x9d01f4c0                __vector_dispatch_22
+ .vector_22     0x9d03f4c0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector22.o)
+                0x9d03f4c0                __vector_dispatch_22
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_22) <= (_vector_spacing << 0x5))), function at exception vector 22 too large)
 
-.vector_23      0x9d01f4e0        0x8
+.vector_23      0x9d03f4e0        0x8
  *(.vector_23)
- .vector_23     0x9d01f4e0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector23.o)
-                0x9d01f4e0                __vector_dispatch_23
+ .vector_23     0x9d03f4e0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector23.o)
+                0x9d03f4e0                __vector_dispatch_23
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_23) <= (_vector_spacing << 0x5))), function at exception vector 23 too large)
 
-.vector_24      0x9d01f500        0x8
+.vector_24      0x9d03f500        0x8
  *(.vector_24)
- .vector_24     0x9d01f500        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector24.o)
-                0x9d01f500                __vector_dispatch_24
+ .vector_24     0x9d03f500        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector24.o)
+                0x9d03f500                __vector_dispatch_24
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_24) <= (_vector_spacing << 0x5))), function at exception vector 24 too large)
 
-.vector_25      0x9d01f520        0x8
+.vector_25      0x9d03f520        0x8
  *(.vector_25)
- .vector_25     0x9d01f520        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector25.o)
-                0x9d01f520                __vector_dispatch_25
+ .vector_25     0x9d03f520        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector25.o)
+                0x9d03f520                __vector_dispatch_25
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_25) <= (_vector_spacing << 0x5))), function at exception vector 25 too large)
 
-.vector_26      0x9d01f540        0x8
+.vector_26      0x9d03f540        0x8
  *(.vector_26)
- .vector_26     0x9d01f540        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector26.o)
-                0x9d01f540                __vector_dispatch_26
+ .vector_26     0x9d03f540        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector26.o)
+                0x9d03f540                __vector_dispatch_26
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_26) <= (_vector_spacing << 0x5))), function at exception vector 26 too large)
 
-.vector_27      0x9d01f560        0x8
+.vector_27      0x9d03f560        0x8
  *(.vector_27)
- .vector_27     0x9d01f560        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector27.o)
-                0x9d01f560                __vector_dispatch_27
+ .vector_27     0x9d03f560        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector27.o)
+                0x9d03f560                __vector_dispatch_27
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_27) <= (_vector_spacing << 0x5))), function at exception vector 27 too large)
 
-.vector_28      0x9d01f580        0x8
+.vector_28      0x9d03f580        0x8
  *(.vector_28)
- .vector_28     0x9d01f580        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector28.o)
-                0x9d01f580                __vector_dispatch_28
+ .vector_28     0x9d03f580        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector28.o)
+                0x9d03f580                __vector_dispatch_28
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_28) <= (_vector_spacing << 0x5))), function at exception vector 28 too large)
 
-.vector_29      0x9d01f5a0        0x8
+.vector_29      0x9d03f5a0        0x8
  *(.vector_29)
- .vector_29     0x9d01f5a0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector29.o)
-                0x9d01f5a0                __vector_dispatch_29
+ .vector_29     0x9d03f5a0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector29.o)
+                0x9d03f5a0                __vector_dispatch_29
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_29) <= (_vector_spacing << 0x5))), function at exception vector 29 too large)
 
-.vector_30      0x9d01f5c0        0x8
+.vector_30      0x9d03f5c0        0x8
  *(.vector_30)
- .vector_30     0x9d01f5c0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector30.o)
-                0x9d01f5c0                __vector_dispatch_30
+ .vector_30     0x9d03f5c0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector30.o)
+                0x9d03f5c0                __vector_dispatch_30
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_30) <= (_vector_spacing << 0x5))), function at exception vector 30 too large)
 
-.vector_31      0x9d01f5e0        0x8
+.vector_31      0x9d03f5e0        0x8
  *(.vector_31)
- .vector_31     0x9d01f5e0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector31.o)
-                0x9d01f5e0                __vector_dispatch_31
+ .vector_31     0x9d03f5e0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector31.o)
+                0x9d03f5e0                __vector_dispatch_31
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_31) <= (_vector_spacing << 0x5))), function at exception vector 31 too large)
 
-.vector_32      0x9d01f600        0x8
+.vector_32      0x9d03f600        0x8
  *(.vector_32)
- .vector_32     0x9d01f600        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector32.o)
-                0x9d01f600                __vector_dispatch_32
+ .vector_32     0x9d03f600        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector32.o)
+                0x9d03f600                __vector_dispatch_32
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_32) <= (_vector_spacing << 0x5))), function at exception vector 32 too large)
 
-.vector_33      0x9d01f620        0x8
+.vector_33      0x9d03f620        0x8
  *(.vector_33)
- .vector_33     0x9d01f620        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector33.o)
-                0x9d01f620                __vector_dispatch_33
+ .vector_33     0x9d03f620        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector33.o)
+                0x9d03f620                __vector_dispatch_33
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_33) <= (_vector_spacing << 0x5))), function at exception vector 33 too large)
 
-.vector_34      0x9d01f640        0x8
+.vector_34      0x9d03f640        0x8
  *(.vector_34)
- .vector_34     0x9d01f640        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector34.o)
-                0x9d01f640                __vector_dispatch_34
+ .vector_34     0x9d03f640        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector34.o)
+                0x9d03f640                __vector_dispatch_34
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_34) <= (_vector_spacing << 0x5))), function at exception vector 34 too large)
 
-.vector_35      0x9d01f660        0x8
+.vector_35      0x9d03f660        0x8
  *(.vector_35)
- .vector_35     0x9d01f660        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector35.o)
-                0x9d01f660                __vector_dispatch_35
+ .vector_35     0x9d03f660        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector35.o)
+                0x9d03f660                __vector_dispatch_35
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_35) <= (_vector_spacing << 0x5))), function at exception vector 35 too large)
 
-.vector_36      0x9d01f680        0x8
+.vector_36      0x9d03f680        0x8
  *(.vector_36)
- .vector_36     0x9d01f680        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector36.o)
-                0x9d01f680                __vector_dispatch_36
+ .vector_36     0x9d03f680        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector36.o)
+                0x9d03f680                __vector_dispatch_36
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_36) <= (_vector_spacing << 0x5))), function at exception vector 36 too large)
 
-.vector_37      0x9d01f6a0        0x8
+.vector_37      0x9d03f6a0        0x8
  *(.vector_37)
- .vector_37     0x9d01f6a0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector37.o)
-                0x9d01f6a0                __vector_dispatch_37
+ .vector_37     0x9d03f6a0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector37.o)
+                0x9d03f6a0                __vector_dispatch_37
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_37) <= (_vector_spacing << 0x5))), function at exception vector 37 too large)
 
-.vector_38      0x9d01f6c0        0x8
+.vector_38      0x9d03f6c0        0x8
  *(.vector_38)
- .vector_38     0x9d01f6c0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector38.o)
-                0x9d01f6c0                __vector_dispatch_38
+ .vector_38     0x9d03f6c0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector38.o)
+                0x9d03f6c0                __vector_dispatch_38
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_38) <= (_vector_spacing << 0x5))), function at exception vector 38 too large)
 
-.vector_39      0x9d01f6e0        0x8
+.vector_39      0x9d03f6e0        0x8
  *(.vector_39)
- .vector_39     0x9d01f6e0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector39.o)
-                0x9d01f6e0                __vector_dispatch_39
+ .vector_39     0x9d03f6e0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector39.o)
+                0x9d03f6e0                __vector_dispatch_39
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_39) <= (_vector_spacing << 0x5))), function at exception vector 39 too large)
 
-.vector_40      0x9d01f700        0x8
+.vector_40      0x9d03f700        0x8
  *(.vector_40)
- .vector_40     0x9d01f700        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector40.o)
-                0x9d01f700                __vector_dispatch_40
+ .vector_40     0x9d03f700        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector40.o)
+                0x9d03f700                __vector_dispatch_40
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_40) <= (_vector_spacing << 0x5))), function at exception vector 40 too large)
 
-.vector_41      0x9d01f720        0x8
+.vector_41      0x9d03f720        0x8
  *(.vector_41)
- .vector_41     0x9d01f720        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector41.o)
-                0x9d01f720                __vector_dispatch_41
+ .vector_41     0x9d03f720        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector41.o)
+                0x9d03f720                __vector_dispatch_41
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_41) <= (_vector_spacing << 0x5))), function at exception vector 41 too large)
 
-.vector_42      0x9d01f740        0x8
+.vector_42      0x9d03f740        0x8
  *(.vector_42)
- .vector_42     0x9d01f740        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector42.o)
-                0x9d01f740                __vector_dispatch_42
+ .vector_42     0x9d03f740        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector42.o)
+                0x9d03f740                __vector_dispatch_42
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_42) <= (_vector_spacing << 0x5))), function at exception vector 42 too large)
 
-.vector_43      0x9d01f760        0x8
+.vector_43      0x9d03f760        0x8
  *(.vector_43)
- .vector_43     0x9d01f760        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector43.o)
-                0x9d01f760                __vector_dispatch_43
+ .vector_43     0x9d03f760        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(vector43.o)
+                0x9d03f760                __vector_dispatch_43
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_43) <= (_vector_spacing << 0x5))), function at exception vector 43 too large)
 
-.vector_44      0x9d01f780        0x0
+.vector_44      0x9d03f780        0x0
  *(.vector_44)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_44) <= (_vector_spacing << 0x5))), function at exception vector 44 too large)
 
-.vector_45      0x9d01f7a0        0x0
+.vector_45      0x9d03f7a0        0x0
  *(.vector_45)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_45) <= (_vector_spacing << 0x5))), function at exception vector 45 too large)
 
-.vector_46      0x9d01f7c0        0x0
+.vector_46      0x9d03f7c0        0x0
  *(.vector_46)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_46) <= (_vector_spacing << 0x5))), function at exception vector 46 too large)
 
-.vector_47      0x9d01f7e0        0x0
+.vector_47      0x9d03f7e0        0x0
  *(.vector_47)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_47) <= (_vector_spacing << 0x5))), function at exception vector 47 too large)
 
-.vector_48      0x9d01f800        0x0
+.vector_48      0x9d03f800        0x0
  *(.vector_48)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_48) <= (_vector_spacing << 0x5))), function at exception vector 48 too large)
 
-.vector_49      0x9d01f820        0x0
+.vector_49      0x9d03f820        0x0
  *(.vector_49)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_49) <= (_vector_spacing << 0x5))), function at exception vector 49 too large)
 
-.vector_50      0x9d01f840        0x0
+.vector_50      0x9d03f840        0x0
  *(.vector_50)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_50) <= (_vector_spacing << 0x5))), function at exception vector 50 too large)
 
-.vector_51      0x9d01f860        0x0
+.vector_51      0x9d03f860        0x0
  *(.vector_51)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_51) <= (_vector_spacing << 0x5))), function at exception vector 51 too large)
 
-.vector_52      0x9d01f880        0x0
+.vector_52      0x9d03f880        0x0
  *(.vector_52)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_52) <= (_vector_spacing << 0x5))), function at exception vector 52 too large)
 
-.vector_53      0x9d01f8a0        0x0
+.vector_53      0x9d03f8a0        0x0
  *(.vector_53)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_53) <= (_vector_spacing << 0x5))), function at exception vector 53 too large)
 
-.vector_54      0x9d01f8c0        0x0
+.vector_54      0x9d03f8c0        0x0
  *(.vector_54)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_54) <= (_vector_spacing << 0x5))), function at exception vector 54 too large)
 
-.vector_55      0x9d01f8e0        0x0
+.vector_55      0x9d03f8e0        0x0
  *(.vector_55)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_55) <= (_vector_spacing << 0x5))), function at exception vector 55 too large)
 
-.vector_56      0x9d01f900        0x0
+.vector_56      0x9d03f900        0x0
  *(.vector_56)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_56) <= (_vector_spacing << 0x5))), function at exception vector 56 too large)
 
-.vector_57      0x9d01f920        0x0
+.vector_57      0x9d03f920        0x0
  *(.vector_57)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_57) <= (_vector_spacing << 0x5))), function at exception vector 57 too large)
 
-.vector_58      0x9d01f940        0x0
+.vector_58      0x9d03f940        0x0
  *(.vector_58)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_58) <= (_vector_spacing << 0x5))), function at exception vector 58 too large)
 
-.vector_59      0x9d01f960        0x0
+.vector_59      0x9d03f960        0x0
  *(.vector_59)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_59) <= (_vector_spacing << 0x5))), function at exception vector 59 too large)
 
-.vector_60      0x9d01f980        0x0
+.vector_60      0x9d03f980        0x0
  *(.vector_60)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_60) <= (_vector_spacing << 0x5))), function at exception vector 60 too large)
 
-.vector_61      0x9d01f9a0        0x0
+.vector_61      0x9d03f9a0        0x0
  *(.vector_61)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_61) <= (_vector_spacing << 0x5))), function at exception vector 61 too large)
 
-.vector_62      0x9d01f9c0        0x0
+.vector_62      0x9d03f9c0        0x0
  *(.vector_62)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_62) <= (_vector_spacing << 0x5))), function at exception vector 62 too large)
 
-.vector_63      0x9d01f9e0        0x0
+.vector_63      0x9d03f9e0        0x0
  *(.vector_63)
                 0x00000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_63) <= (_vector_spacing << 0x5))), function at exception vector 63 too large)
 
@@ -861,8 +861,8 @@ END GROUP
                 0xa0000000                . = ALIGN (0x4)
                 0xa0000000                _end = .
                 0xa0000000                _bss_end = .
-                0x00008000                _bmxdudba_address = 0x8000
-                0x00008000                _bmxdupba_address = 0x8000
+                0x00010000                _bmxdudba_address = 0x10000
+                0x00010000                _bmxdupba_address = 0x10000
 
 /DISCARD/
  *(.pdr)
@@ -969,41 +969,41 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000      0xee1
+.debug_info     0x00000000      0xe59
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0xa5b build/default/production/main.o
- .debug_info    0x00000a5b       0xf9 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
- .debug_info    0x00000b54       0xd2 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-reset.o)
- .debug_info    0x00000c26       0xda /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-bootstrap.o)
- .debug_info    0x00000d00       0xf5 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-general-exception-handler.o)
- .debug_info    0x00000df5       0xec /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(defaultinterrupt.o)
+ .debug_info    0x00000000      0x9d3 build/default/production/main.o
+ .debug_info    0x000009d3       0xf9 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_info    0x00000acc       0xd2 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-reset.o)
+ .debug_info    0x00000b9e       0xda /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-bootstrap.o)
+ .debug_info    0x00000c78       0xf5 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-general-exception-handler.o)
+ .debug_info    0x00000d6d       0xec /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(defaultinterrupt.o)
 
-.debug_abbrev   0x00000000      0x1be
+.debug_abbrev   0x00000000      0x191
  *(.debug_abbrev)
- .debug_abbrev  0x00000000       0xf6 build/default/production/main.o
- .debug_abbrev  0x000000f6       0x28 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
- .debug_abbrev  0x0000011e       0x28 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-reset.o)
- .debug_abbrev  0x00000146       0x28 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-bootstrap.o)
- .debug_abbrev  0x0000016e       0x28 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-general-exception-handler.o)
- .debug_abbrev  0x00000196       0x28 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(defaultinterrupt.o)
+ .debug_abbrev  0x00000000       0xc9 build/default/production/main.o
+ .debug_abbrev  0x000000c9       0x28 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_abbrev  0x000000f1       0x28 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-reset.o)
+ .debug_abbrev  0x00000119       0x28 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-bootstrap.o)
+ .debug_abbrev  0x00000141       0x28 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-general-exception-handler.o)
+ .debug_abbrev  0x00000169       0x28 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(defaultinterrupt.o)
 
-.debug_line     0x00000000      0x45b
+.debug_line     0x00000000      0x466
  *(.debug_line)
- .debug_line    0x00000000      0x129 build/default/production/main.o
- .debug_line    0x00000129       0xab /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
- .debug_line    0x000001d4       0x98 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-reset.o)
- .debug_line    0x0000026c       0x9c /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-bootstrap.o)
- .debug_line    0x00000308       0xa9 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-general-exception-handler.o)
- .debug_line    0x000003b1       0xaa /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(defaultinterrupt.o)
+ .debug_line    0x00000000      0x134 build/default/production/main.o
+ .debug_line    0x00000134       0xab /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_line    0x000001df       0x98 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-reset.o)
+ .debug_line    0x00000277       0x9c /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-bootstrap.o)
+ .debug_line    0x00000313       0xa9 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-general-exception-handler.o)
+ .debug_line    0x000003bc       0xaa /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(defaultinterrupt.o)
 
-.debug_frame    0x00000000       0xe4
+.debug_frame    0x00000000      0x104
  *(.debug_frame)
- .debug_frame   0x00000000       0x2c build/default/production/main.o
- .debug_frame   0x0000002c       0x2c /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
- .debug_frame   0x00000058       0x20 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-reset.o)
- .debug_frame   0x00000078       0x20 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-bootstrap.o)
- .debug_frame   0x00000098       0x2c /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-general-exception-handler.o)
- .debug_frame   0x000000c4       0x20 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(defaultinterrupt.o)
+ .debug_frame   0x00000000       0x4c build/default/production/main.o
+ .debug_frame   0x0000004c       0x2c /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_frame   0x00000078       0x20 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-reset.o)
+ .debug_frame   0x00000098       0x20 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-bootstrap.o)
+ .debug_frame   0x000000b8       0x2c /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-general-exception-handler.o)
+ .debug_frame   0x000000e4       0x20 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(defaultinterrupt.o)
 
 .debug_str      0x00000000        0x0
  *(.debug_str)
@@ -1396,10 +1396,10 @@ LOAD data_init
  .data          0x00000000        0x0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
 
 .bss%z105       0x00000000        0x0
- .bss           0x00000000        0x0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX250F128B/processor.o
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX270F256D/processor.o
 
 .data%z106      0x00000000        0x0
- .data          0x00000000        0x0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX250F128B/processor.o
+ .data          0x00000000        0x0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX270F256D/processor.o
 
 .bss%z107       0x00000000        0x0
  .bss           0x00000000        0x0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/pic32_software_reset.o
@@ -1408,28 +1408,28 @@ LOAD data_init
  .data          0x00000000        0x0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/pic32_software_reset.o
 
 .bss%z109       0x00000000        0x0
- .bss           0x00000000        0x0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX250F128B/default_isr_vectors.o
+ .bss           0x00000000        0x0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX270F256D/default_isr_vectors.o
 
 .data%z110      0x00000000        0x0
- .data          0x00000000        0x0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX250F128B/default_isr_vectors.o
+ .data          0x00000000        0x0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX270F256D/default_isr_vectors.o
 
 .bss%z111       0x00000000        0x0
- .bss           0x00000000        0x0 /tmp/ccO8b19n.o
+ .bss           0x00000000        0x0 /tmp/ccFBuVqf.o
 
 .data%z112      0x00000000        0x0
- .data          0x00000000        0x0 /tmp/ccO8b19n.o
+ .data          0x00000000        0x0 /tmp/ccFBuVqf.o
 
 .bss%z113       0x00000000        0x0
- .bss           0x00000000        0x0 /tmp/ccFOiEE4.o
+ .bss           0x00000000        0x0 /tmp/cccdp7T4.o
 
 .data%z114      0x00000000        0x0
- .data          0x00000000        0x0 /tmp/ccFOiEE4.o
+ .data          0x00000000        0x0 /tmp/cccdp7T4.o
 
 .bss%z115       0x00000000        0x0
- .bss           0x00000000        0x0 /tmp/ccOqHytL.o
+ .bss           0x00000000        0x0 /tmp/cco23KKU.o
 
 .data%z116      0x00000000        0x0
- .data          0x00000000        0x0 /tmp/ccOqHytL.o
+ .data          0x00000000        0x0 /tmp/cco23KKU.o
 
 .bss%z117       0x00000000        0x0
  .bss           0x00000000        0x0 build/default/production/main.o
@@ -1449,64 +1449,65 @@ LOAD data_init
                 0xbfc00480       0x2c /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/debug-exception-return.o
                 0xbfc00480                __DbgExecReturn
 
-.text           0x9d000000      0x188
- .text          0x9d000000      0x188 build/default/production/main.o
-                0x9d000000                main
+.text           0x9d000000      0x1d8
+ .text          0x9d000000      0x1d8 build/default/production/main.o
+                0x9d000000                startup
+                0x9d0000d8                main
 
 .text.general_exception
-                0x9d000188       0xdc
+                0x9d0001d8       0xdc
  .text.general_exception
-                0x9d000188       0xdc /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(general-exception.o)
-                0x9d000188                _general_exception_context
+                0x9d0001d8       0xdc /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(general-exception.o)
+                0x9d0001d8                _general_exception_context
 
-.text           0x9d000264       0x84
- .text          0x9d000264       0x84 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(pic32_data_init.o)
-                0x9d000264                __pic32_data_init
+.text           0x9d0002b4       0x84
+ .text          0x9d0002b4       0x84 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(pic32_data_init.o)
+                0x9d0002b4                __pic32_data_init
 
 .text.main_entry
-                0x9d0002e8       0x54
+                0x9d000338       0x54
  .text.main_entry
-                0x9d0002e8       0x54 /tmp/ccOqHytL.o
-                0x9d00031c                __crt0_exit
+                0x9d000338       0x54 /tmp/cco23KKU.o
+                0x9d00036c                __crt0_exit
 
 .text._bootstrap_exception_handler
-                0x9d00033c       0x48
+                0x9d00038c       0x48
  .text._bootstrap_exception_handler
-                0x9d00033c       0x48 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
-                0x9d00033c                _bootstrap_exception_handler
+                0x9d00038c       0x48 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
+                0x9d00038c                _bootstrap_exception_handler
 
 .text._general_exception_handler
-                0x9d000384       0x48
+                0x9d0003d4       0x48
  .text._general_exception_handler
-                0x9d000384       0x48 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-general-exception-handler.o)
-                0x9d000384                _general_exception_handler
+                0x9d0003d4       0x48 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-general-exception-handler.o)
+                0x9d0003d4                _general_exception_handler
 
 .vector_default
-                0x9d0003cc       0x48
+                0x9d00041c       0x48
  .vector_default
-                0x9d0003cc       0x48 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(defaultinterrupt.o)
-                0x9d0003cc                _DefaultInterrupt
+                0x9d00041c       0x48 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(defaultinterrupt.o)
+                0x9d00041c                _DefaultInterrupt
 
-.text           0x9d000414       0x5c
- .text          0x9d000414       0x44 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/pic32_software_reset.o
-                0x9d000414                __pic32_software_reset
- .text          0x9d000458       0x18 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-nmi-handler.o)
-                0x9d000458                _nmi_handler
+.text           0x9d000464       0x5c
+ .text          0x9d000464       0x44 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/pic32_software_reset.o
+                0x9d000464                __pic32_software_reset
+ .text          0x9d0004a8       0x18 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-nmi-handler.o)
+                0x9d0004a8                _nmi_handler
 
-.dinit          0x9d000470       0x10
- .dinit         0x9d000470       0x10 data_init
+.dinit          0x9d0004c0       0x10
+ .dinit         0x9d0004c0       0x10 data_init
 
 .text._on_reset
-                0x9d000480        0x8
+                0x9d0004d0        0x8
  .text._on_reset
-                0x9d000480        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-reset.o)
-                0x9d000480                _on_reset
+                0x9d0004d0        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-reset.o)
+                0x9d0004d0                _on_reset
 
 .text._on_bootstrap
-                0x9d000488        0x8
+                0x9d0004d8        0x8
  .text._on_bootstrap
-                0x9d000488        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-bootstrap.o)
-                0x9d000488                _on_bootstrap
+                0x9d0004d8        0x8 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-on-bootstrap.o)
+                0x9d0004d8                _on_bootstrap
 
 .text%z121      0x00000000        0x0
  .text          0x00000000        0x0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(defaultinterrupt.o)
@@ -1659,19 +1660,19 @@ LOAD data_init
  .text          0x00000000        0x0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/libpic32.a(default-bootstrap-exception-handler.o)
 
 .text%z171      0x00000000        0x0
- .text          0x00000000        0x0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX250F128B/processor.o
+ .text          0x00000000        0x0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX270F256D/processor.o
 
 .text%z172      0x00000000        0x0
- .text          0x00000000        0x0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX250F128B/default_isr_vectors.o
+ .text          0x00000000        0x0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MX270F256D/default_isr_vectors.o
 
 .text%z173      0x00000000        0x0
- .text          0x00000000        0x0 /tmp/ccO8b19n.o
+ .text          0x00000000        0x0 /tmp/ccFBuVqf.o
 
 .text%z174      0x00000000        0x0
- .text          0x00000000        0x0 /tmp/ccFOiEE4.o
+ .text          0x00000000        0x0 /tmp/cccdp7T4.o
 
 .text%z175      0x00000000        0x0
- .text          0x00000000        0x0 /tmp/ccOqHytL.o
+ .text          0x00000000        0x0 /tmp/cco23KKU.o
 
 .text%z176      0x00000000        0x0
  .text          0x00000000        0x0 /opt/microchip/xc32/v2.15/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/debug-exception-return.o

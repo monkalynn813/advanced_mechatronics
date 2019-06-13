@@ -1,5 +1,9 @@
 #include<xc.h>           // processor SFR definitions
 #include<sys/attribs.h>  // __ISR macro
+#include<stdio.h>
+#include "motor_control.h"
+#include "ili9341.h"
+#include "lcd_lib.h"
 
 // DEVCFG0
 #pragma config DEBUG = OFF // no debugging
@@ -36,6 +40,26 @@
 #pragma config FUSBIDIO = ON // USB pins controlled by USB module
 #pragma config FVBUSONIO = ON // USB BUSON controlled by USB module
 
+//prototypes
+void generate_random_array(unsigned char*array,int array_size);
+
+
+void __ISR(_TIMER_3_VECTOR,IPL5SOFT)SetMotor(void){
+    
+    static volatile int counter=0, dir=1;
+    
+    set_pwm(counter*dir);
+    
+    counter++;
+    if (counter>100){
+        counter=0;
+        dir=(-1)*dir;
+    }
+    
+    
+    IFS0bits.T3IF=0;
+}
+
 
 int main() {
 
@@ -53,31 +77,33 @@ int main() {
     // disable JTAG to get pins back
     DDPCONbits.JTAGEN = 0;
 
-    // do your TRIS and LAT commands here
-    T1CONbits.TCKPS = 0b11;
-    T1CONbits.TGATE = 0;
-    T1CONbits.TCS = 0;
-    PR1 = 311;
-    TMR1 = 0;
-    T1CONbits.ON = 1;
-    
-    TRISAbits.TRISA4 = 0;
-    LATAbits.LATA4 = 1;
-    
-    
+    motor_control_init();
+    SPI1_init();
+    LCD_init();
+
     __builtin_enable_interrupts();
     
     _CP0_SET_COUNT(0);
+    LCD_clearScreen(ILI9341_BLACK);
 
+    unsigned char r_array[240];
+    
+    int r_array_lim[2]={0,200};
+    char msg[100];
+    sprintf(msg,"R_pot");
+    
     while(1) {
-	// use _CP0_SET_COUNT(0) and _CP0_GET_COUNT() to test the PIC timing
-	// remember the core timer runs at half the sysclk
-//        while (PORTBbits.RB4 == 0){
-//            LATAbits.LATA4=0;
-//        }
-        if (_CP0_GET_COUNT()>24000){
-            LATAbits.LATA4=!LATAbits.LATA4;
-            _CP0_SET_COUNT(0);
-        }
+        generate_random_array(r_array,240);
+        LCD_plot(0,360,r_array_lim,ILI9341_ORANGE,ILI9341_BLACK,msg,r_array);
+        LCD_plot(0,240,r_array_lim,ILI9341_ORANGE,ILI9341_BLACK,msg,r_array);
+        LCD_plot(0,120,r_array_lim,ILI9341_ORANGE,ILI9341_BLACK,msg,r_array);
+//        LCD_clearScreen(ILI9341_BLACK);
+    }
+}
+
+void generate_random_array(unsigned char*array,int array_size){
+    static int i;
+    for (i=0;i<array_size;i++){
+        array[i]=(rand()%200);
     }
 }
