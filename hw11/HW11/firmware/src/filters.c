@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <xc.h>
 #include "filters.h"
-
+#include "filters.h"
 float moving_average(short v, int order,int counter,short* buffer){
     /*function returns average value in moving window
      * v: value of single sample point 
@@ -62,7 +62,7 @@ float fir_filter(short v,int order,int counter,float * coef,short* buffer){
     return r;
     
 }
-float iir_filter(short v, float *coef,float iir){
+float iir_filter(char v, float *coef,float iir){
     /* function return sum of previous filtered value and current value with assigned weight
      * value of single sample point
      * coef: array of weights size=2 A+B=1;
